@@ -89,6 +89,9 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* gap: 32px; */
+    padding: 16px 0;
+    
 }
 
 .nav-list,
@@ -105,14 +108,17 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    padding: 16px 0;
 }
 
 .logo-nav {
-    padding: 16px 0;
+    
     display: block;
+        
 }
 
 .logo-nav .logo-span {
+    
     color: #2e2f42;
 }
 
