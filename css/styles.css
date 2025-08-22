@@ -1134,14 +1134,19 @@ align-items: center;
 @media screen and (min-width: 768px) {
 
 .container-footer {
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: baseline;
-        padding-left: 108px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    padding-left: 108px;
+    gap: 72px 24px;
+    justify-content: left;
              
     }
 
+.footer-size {
 
+    margin: 0;
+}
 .page-footer .logo {
     display: inline-block;
     align-items: center;
@@ -1161,8 +1166,8 @@ align-items: center;
 
 }
 
-.team-text-icons_s {
-text-align: left;
+.team-text-icons {
+    text-align: left;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -1191,10 +1196,8 @@ text-align: left;
 
 
 .subs-le {
-   text-align: left;
-
+    align-items: flex-start;
 }
-
 
 }
 
