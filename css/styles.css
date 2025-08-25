@@ -211,8 +211,7 @@ button {
 }
 
 .address-list {
-    display: flex;       
-    gap: 12px;   
+    gap: 40px;   
     flex-direction: row;
 }
 
@@ -711,8 +710,6 @@ button {
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-
-
 .tli {
     border-radius: 0px 0px 4px 4px;
     width: 264px;
@@ -747,7 +744,6 @@ button {
     text-align: center;
     margin-bottom: 8px;     
 }
-
 
 @media screen and (min-width: 768px) {
 
@@ -864,13 +860,10 @@ button {
 }
 
 .portfolio-list {
-    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     gap: 24px;
-    row-gap: 72px;
+    row-gap: 48px;
 }
 }
 
@@ -966,18 +959,11 @@ background-color: #2e2f42;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 72px;
 }
 
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    padding: 16px 0;
-    display: block;
+.logo-footer {
+    padding: 0;
 }
 
 .logo-span {
@@ -1111,6 +1097,10 @@ background-color: #2e2f42;
              
     }
 
+.logo-footer {
+    padding: 16px 0;
+}
+
 .footer-size {
 
     margin: 0;
@@ -1134,20 +1124,16 @@ background-color: #2e2f42;
 }
 
 .ticgf {
-    gap: 16px;
     display: flex;
     justify-content: left;
 }
        
 
-.email-button-sub {   
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.email-button-sub {
+    flex-direction: row;   
     justify-content: left;
-    gap: 16px;
+    gap: 24px;
 }
-
 
 .subs-le {
     align-items: flex-start;
